@@ -47,14 +47,14 @@ app.secret_key = 'your_secret_key'
 # MongoDB Atlas connection string
 
 
-username = urllib.parse.quote_plus('sardfgafdg_db_user')
+username = urllib.parse.quote_plus('swiggycash2_db_user')
 
-password = urllib.parse.quote_plus('xtARhRbScHTc8bxh')
+password = urllib.parse.quote_plus('lalg3836')
 
 # Initialize MongoDB collections MongoDB Atlas connection string
 
 
-app.config["MONGO_URI"] = f"mongodb+srv://{username}:{password}@cluster0.ajih9yx.mongodb.net/dbname?retryWrites=true&w=majority"
+app.config["MONGO_URI"] = f"mongodb+srv://{username}:{password}@cluster0.m8fvvue.mongodb.net/dbname?retryWrites=true&w=majority"
 
 mongo = PyMongo(app)
 
